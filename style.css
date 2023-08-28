@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -46,10 +46,19 @@ footer {
 .logo {
   font-size: 2rem;
   margin-bottom: 16px;
+  color: var(--white, #fff);
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
 
 .legal {
   margin-top: auto;
+  color: var(--gray-700, #9487a1);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .links {
@@ -60,6 +69,11 @@ footer {
 .links h2 {
   margin-bottom: 24px;
   letter-spacing: 0.03em;
+  color: var(--gray-700, #9487a1);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -73,6 +87,11 @@ footer {
 
 .links a {
   text-decoration: none;
+  color: var(--color-gray-100, #f5f2f7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
 }
 
 main {
@@ -81,4 +100,20 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sublogo {
+  color: var(--gray-500, #b8adc2);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.person-name {
+  color: var(--gray-300, #d6cfdd);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
 }
